@@ -1,0 +1,30 @@
+{
+  "name": "bni-scrapper",
+  "version": "0.1.0",
+  "description": "A scraper for bnizona.com/index.php/category/index/promo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-dev index.js",
+    "prod": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://natanelia@bitbucket.org/natanelia/bni-scraper.git"
+  },
+  "keywords": [
+    "scaper",
+    "promise"
+  ],
+  "author": "Natan Elia",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/natanelia/bni-scraper#readme",
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "cheerio": "^0.20.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "node-dev": "^3.1.0"
+  }
+}
