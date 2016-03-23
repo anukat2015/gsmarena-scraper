@@ -7,4 +7,5 @@ module.exports = {
     item: {
         domString: '.makers > ul > li > a',
     },
+    silent: false,
 };
